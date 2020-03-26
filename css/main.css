@@ -16,6 +16,44 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+/*Menu horizontal*/
+#navigation li {
+  border-radius: 10px;
+  display: inline-grid;
+  color: #000 ;
+}
+#navigation li a {
+  border-radius: 10px;
+  padding: 4px 20px ;
+  background: rgb(49,12,147);
+  background: -moz-linear-gradient(90deg, rgba(49,12,147,1) 0%, rgba(92,213,255,1) 53%, rgba(255,0,216,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(49,12,147,1) 0%, rgba(92,213,255,1) 53%, rgba(255,0,216,1) 100%);
+  background: linear-gradient(90deg, rgba(49,12,147,1) 0%, rgba(92,213,255,1) 53%, rgba(255,0,216,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#310c93",endColorstr="#ff00d8",GradientType=1);
+  color: #000 ;
+  border: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none;
+}
+
+#navigation {
+  border-radius: 10px;
+  margin: 0 ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  border-radius: 10px;
+  background: rgb(58,21,156);
+  background: -moz-linear-gradient(90deg, rgba(58,21,156,1) 0%, rgba(101,222,255,1) 53%, rgba(255,9,225,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(58,21,156,1) 0%, rgba(101,222,255,1) 53%, rgba(255,9,225,1) 100%);
+  background: linear-gradient(90deg, rgba(58,21,156,1) 0%, rgba(101,222,255,1) 53%, rgba(255,9,225,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a159c",endColorstr="#ff09e1",GradientType=1);
+  text-decoration: underline;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -28,8 +66,8 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+  background: #b2d2f2;
+  text-shadow: darkgray;
 }
 
 ::selection {
