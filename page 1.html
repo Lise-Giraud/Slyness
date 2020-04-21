@@ -3,10 +3,11 @@
 
 
 <head>
-    <meta charset="UTF-8">
-    <title>Le jeu</title>
+  <meta charset="UTF-8">
+  <title>Le jeu</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/css_le_jeu.css.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel ="stylesheet" href ="css/css_le_jeu.css">
 </head>
 
 
@@ -23,10 +24,63 @@
   <li><a href="#" title="Télécharger Slyness sous Windows">Télécharger Slyness sous Windows</a></li>
 </ul>
 
+<SPAN style="position: absolute; top : 250px; left: 45%; width: 200px; height: 200px">
+<IMG SRC="img/logo1.png">
+</SPAN>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <h2>Le jeu</h2>
+<br/><br/>
 <h3>Le but du jeu</h3>
-<p>Slyness est un jeu de réflexion destiné à être joué sur Windows. <br/>
-Le but du jeu est d'atteindre la fin du niveau, représentée par une case avec un coffre, tout en évitant les divers ennemis et obstacles.
+<p>
+  Slyness est un jeu de réflexion et de logique basé sur la détection.
+  Dans ce jeu vous jouerez un personnage, appelé Boulli. Vous l'aiderez à atteindre la fin de chaque niveau représentée par un
+  coffre.
+  Mais attention ! Il ne faut pas se faire repérer par les ennemis et vous devrez éviter les obstacles disséminés tout au long des
+  niveaux. Pour rajouter un peu plus de piment au jeu vous pouvez essayer de mourir le moins de fois possible
+  et d'atteindre la fin du niveau le plus rapidement possible ! </p>
+<h3>Les ennemis du jeu</h3>
+<h4>La tour : </h4>
+<p>
+  C'est l'ennemi le plus basique, elle ne se déplace pas. Cependant, son champ de vision s'étend à toutes les cases devant elle tant qu'il n'y a pas de mur ou
+  d'obstacle pouvant obstruer son champ de vision. Bien évidemment, elle peut voir à travers les vitres.
+  Mais il est possible de détourner son attention pour un court laps de temps en posant un leurre à côté d'elle ! Vous pourrez
+  alors en profiter pour vous faufiler et atteindre la fin du niveau !
+</p>
+<br/>
+<h4>Le cristal : </h4>
+<p>
+  Cet ennemi est immobile aussi. Mais il est vicieux ! Il est capable de diffracter le champ de vision des ennemis. Par exemple,
+  si le champ de vision d'une tour entre en contact avec un cristal, le cristal pourra voir dans toutes les directions.
+  Mais rassurez-vous ! Si aucun ennemi ne regarde le cristal alors celui-ci est aveugle et ne pourra pas vous détecter.
+</p>
+<br/>
+<h4>La sentinelle :</h4>
+<p>
+  Les choses se compliquent ! La sentinelle se déplace selon un chemin de ronde précis. Elle ne peut voir que devant elle
+  mais attention à ce qu'elle ne regarde pas un cristal pendant un moment ! Il est aussi possible de détourner son attention avec
+  un leurre.
+</p>
+
+<h3>Le décors</h3>
+<p>
+  Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décors qui ont tous leur importance
+</p>
+<h4>Les murs :</h4>
+<p>
+  Tout simplement, les murs sont là pour vous empêcher de traverser le niveau comme bon vous semble ! Vous ne pouvez pas passer
+  au travers et les ennemis ne peuvent pas vous voir quand vous êtes derrière un mur. En bref c'est un mur, tout ce qu'il y a de
+  plus classique !
+</p>
+<h4> Les vitres : </h4>
+<p>
+  Tout comme les murs, vous ne pouvez pas passer au travers. Mais les ennemis peuvent vous voir à travers la vitre, faites
+  attention !
+</p>
+<h4>Les boutons : </h4>
+<p>
+  Lorsque l'on pose un bouton, si on clique sur un mur déjà activé, ou un mur non levé, ce mur devient lié au bouton.
+  Lorsque l’on clique sur un bouton déjà existant, la même chose se produit. Mais attention, un mur ne peut être lié qu'à un
+  seul bouton. Si le bouton est dans le champ de détection d’un ennemi, alors il s’active et baisse le mur lié.
 </p>
 
 
