@@ -1,99 +1,83 @@
 h2
 {
-  position: absolute;
   font-size: 2em;
   margin-top: -10px;
-  margin-left: 735px;
 }
 
 #logo1 {
-  position: absolute;
-  top : 250px;
-  left: 45%;
+  margin-top : 30px;
   width: 200px;
   height: 200px;
 }
 
 #rihal2 {
-  position: absolute;
-  top : 600px;
-  left: 2%;
+  margin-top : 0px;
   width: 200px;
   height: 173px;
 }
 
 #tower {
-  position: absolute;
-  top : 980px;
-  left: 2%; width:
-  100px;
+  margin-top : 0px;
+  width: 100px;
   height: 133px;
 }
 
 #high\ tower {
-  position: absolute;
-  top : 980px;
-  left: 9%;
+  margin-top : 0px;
   width: 100px;
   height: 129px;
 }
 
 #cristal {
-  position: absolute;
-  top : 1250px;
-  left: 2%;
+  margin-top : 0px;
   width: 100px;
   height: 118px;
 }
 
 #sentinelleiso {
-  position: absolute;
-  top : 1510px;
-  left: 2%;
+  margin-top : 0px;
   width: 100px;
   height: 95px;
 }
 
 #sentinelleface {
-  position: absolute;
-  top : 1510px;
-  left: 10%;
+  margin-top : 0px;
   width: 100px;
   height: 93px;
 }
 
 #niveau {
-  position: absolute;
-  top : 1710px;
-  left: 2%;
+  margin-top : 0px;
   width: 500px;
   height: 383px;
 }
 
 #mur {
-  position: absolute;
-  top : 2190px;
-  left: 2%;
+  margin-top : 0px;
   width: 100px;
   height: 60px;
 }
+#vitre {
+  margin-top : 0px;
+  width: 200px;
+  height: 80px;
+  left : 9%;
+}
 
 #murvitre {
-  position: absolute;
-  top : 2350px;
-  left: 10%;
+  margin-top : 0px;
   width: 200px;
-  height: 80px
+  height: 80px;
 }
 
 #bouton {
-  margin-top : 2510px;
+  margin-top : 0px;
   width: 100px;
   height: 125px;
 }
 
 #leurres {
-  margin-top : 2735px;
+  margin-top : 0px;
   width: 100px;
   height: 65px;
 }
