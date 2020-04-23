@@ -6,4 +6,98 @@ h2
   margin-left: 735px;
 }
 
+#logo1 {
+  position: absolute;
+  top : 250px;
+  left: 45%;
+  width: 200px;
+  height: 200px;
+}
 
+#rihal2 {
+  position: absolute;
+  top : 600px;
+  left: 2%;
+  width: 200px;
+  height: 173px;
+}
+
+#tower {
+  position: absolute;
+  top : 980px;
+  left: 2%; width:
+  100px;
+  height: 133px;
+}
+
+#high\ tower {
+  position: absolute;
+  top : 980px;
+  left: 9%;
+  width: 100px;
+  height: 129px;
+}
+
+#cristal {
+  position: absolute;
+  top : 1250px;
+  left: 2%;
+  width: 100px;
+  height: 118px;
+}
+
+#sentinelleiso {
+  position: absolute;
+  top : 1510px;
+  left: 2%;
+  width: 100px;
+  height: 95px;
+}
+
+#sentinelleface {
+  position: absolute;
+  top : 1510px;
+  left: 10%;
+  width: 100px;
+  height: 93px;
+}
+
+#niveau {
+  position: absolute;
+  top : 1710px;
+  left: 2%;
+  width: 500px;
+  height: 383px;
+}
+
+#mur {
+  position: absolute;
+  top : 2190px;
+  left: 2%;
+  width: 100px;
+  height: 60px;
+}
+
+#murvitre {
+  position: absolute;
+  top : 2350px;
+  left: 10%;
+  width: 200px;
+  height: 80px
+}
+
+#bouton {
+  position: absolute;
+  top : 2510px;
+  left: 2%;
+  width: 100px;
+  height: 125px
+}
+
+#leurres {
+  position: absolute;
+  top : 2735px;
+  left: 2%;
+  width: 100px;
+  height: 65px
+}
