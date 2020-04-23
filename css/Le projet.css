@@ -1,17 +1,11 @@
 #Bouly {
-  position: absolute;
-  top : 400px;
-  left: 2%;
+  margin-top : 400px;
   width: 100px;
   height: 83px;
-  align: center;
 }
 
 #Rihal {
-  position: absolute;
-  top : 530px;
-  left: 2%;
+  margin-top : 530px;
   width: 100px;
   height: 86px;
-  align : center;
 }

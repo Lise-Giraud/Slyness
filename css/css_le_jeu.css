@@ -87,17 +87,13 @@ h2
 }
 
 #bouton {
-  position: absolute;
-  top : 2510px;
-  left: 2%;
+  margin-top : 2510px;
   width: 100px;
-  height: 125px
+  height: 125px;
 }
 
 #leurres {
-  position: absolute;
-  top : 2735px;
-  left: 2%;
+  margin-top : 2735px;
   width: 100px;
-  height: 65px
+  height: 65px;
 }
