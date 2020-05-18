@@ -15,48 +15,80 @@ html {
   color: #000000;
   font-size: 1em;
   line-height: 1.4;
-  background: rgb(222,222,222);
-  margin-left: 10px;
-  margin-right: 10px;
-}
-/*Menu horizontal*/
-#navigation li {
-  border-radius: 10px;
-  display: inline-grid;
-  color: #000 ;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
+body {
+  background-image:url(/img/background.png);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: cover;
+}
+
+/*Menu horizontal*/
 #navigation li a {
-  border-radius: 10px;
-  padding: 4px 20px ;
-  background: rgb(144,30,30);
-  background: -moz-radial-gradient(circle, rgba(144,30,30,1) 100%, rgba(84,84,84,1) 100%);
-  background: -webkit-radial-gradient(circle, rgba(144,30,30,1) 100%, rgba(84,84,84,1) 100%);
-  background: radial-gradient(circle, rgba(144,30,30,1) 100%, rgba(84,84,84,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#901e1e",endColorstr="#545454",GradientType=1);
+  display: inline-grid;
+  background: url(/img/menu.png) left top no-repeat ;
   color: #000 ;
-  border: 1px solid #600 ;
   font: 1em "Trebuchet MS",Arial,sans-serif ;
   line-height: 1em ;
+  padding: 4px 0 ;
   text-align: center ;
-  text-decoration: none;
 }
-#navigation {
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: url(/img/menu_cliked.png) right top no-repeat ;
+}
+
+.navigation{
   border-radius: 10px;
   margin: 0px ;
   padding: 0 ;
   list-style: none ;
   text-align: center ;
 }
-#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+
+#navigation li {
   border-radius: 10px;
-  background: rgb(144,30,30);
-  background: -moz-radial-gradient(circle, rgba(144,30,30,1) 100%, rgba(84,84,84,1) 100%);
-  background: -webkit-radial-gradient(circle, rgba(144,30,30,1) 100%, rgba(84,84,84,1) 100%);
-  background: radial-gradient(circle, rgba(144,30,30,1) 100%, rgba(84,84,84,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#901e1e",endColorstr="#545454",GradientType=1);
-  text-decoration: underline;
+  display: inline-grid;
+  color: #fff;
 }
+
+/*#navigation li {
+  border-radius: 10px;
+  display: inline-grid;
+  color: #fff ;
+}
+#navigation li a {
+  border-radius: 10px;
+  border: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none;
+  display: block ;
+  background: #fff url(/img/menu.png) left top no-repeat ;
+  padding: 4px 0 ;
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: url(/img/menu_cliked.png) left top no-repeat ;
+}
+
+#navigation {
+  border-radius: 10px;
+  margin: 0px ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+}*/
+
+/*.prout {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
 
 /*
  * Remove text-shadow in selection highlight:
