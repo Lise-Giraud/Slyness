@@ -22,11 +22,11 @@ html {
 
 
 body {
-    margin: 0;
-    width: 100%;
-    max-width: 1920px;
-    min-width: 150px;
-  }
+  margin : 0px;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 150px;
+}
 
 /**
  * Render the `main` element consistently in IE.

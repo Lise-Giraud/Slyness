@@ -39,33 +39,35 @@
   et d'atteindre la fin du niveau le plus rapidement possible ! </p>
 
 <h3>Les ennemis et décors du jeu</h3>
+Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décors qui ont tous leur importance.
 
-<!--<div class="slideshow-container">-->
+<div class = "slideshow" style="width: 500px; height: 375px; position: relative; margin-left: 33%">
+<div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
- <div class="mySlides">
-    <div class="numbertext">1 / 3</div>
+<div class ="Slideshow" style="text-align: center;">
+<div class="mySlides">
     <img src="img/Tours.png">
-    <div class="text">C'est l'ennemi le plus basique, elle ne se déplace pas. Cependant, son champ de vision s'étend à toutes les cases devant elle tant qu'il n'y a pas de mur ou
-      d'obstacle pouvant obstruer son champ de vision. Bien évidemment, elle peut voir à travers les vitres.
-      Mais il est possible de détourner son attention pour un court laps de temps en posant un leurre à côté d'elle ! Vous pourrez
-      alors en profiter pour vous faufiler et atteindre la fin du niveau !</div>
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">2 / 3</div>
     <img src="img/cristal%20haut.png">
-    <div class="text">Cet ennemi est immobile aussi. Mais il est vicieux ! Il est capable de diffracter le champ de vision des ennemis. Par exemple,
-      si le champ de vision d'une tour entre en contact avec un cristal, le cristal pourra voir dans toutes les directions.
-      Mais rassurez-vous ! Si aucun ennemi ne regarde le cristal alors celui-ci est aveugle et ne pourra pas vous détecter.</div>
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">3 / 3</div>
     <img src="img/sentinelles.png">
-    <div class="text">Les choses se compliquent ! La sentinelle se déplace selon un chemin de ronde précis. Elle ne peut voir que devant elle
-      mais attention à ce qu'elle ne regarde pas un cristal pendant un moment ! Il est aussi possible de détourner son attention avec
-      un leurre.</div>
+  </div>
+  <div class="mySlides">
+    <img src="img/mur.png">
+  </div>
+  <div class="mySlides">
+    <img src="img/mur%20et%20vitre.png">
+  </div>
+  <div class="mySlides">
+    <img src="img/bouton.png">
+  </div>
+  <div class="mySlides">
+    <img src="img/leurres.png">
   </div>
 
   <!-- Next and previous buttons -->
@@ -79,70 +81,56 @@
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
 </div>
-
-<h4>La tour : </h4>
-<IMG id="tower" SRC="img/Tour%20face.png">
-<IMG id="high tower" SRC="img/Tour%20haut.png">
-<p>
+</div>
+<div class="text">
+  <h3>La tour :</h3>
   C'est l'ennemi le plus basique, elle ne se déplace pas. Cependant, son champ de vision s'étend à toutes les cases devant elle tant qu'il n'y a pas de mur ou
   d'obstacle pouvant obstruer son champ de vision. Bien évidemment, elle peut voir à travers les vitres.
   Mais il est possible de détourner son attention pour un court laps de temps en posant un leurre à côté d'elle ! Vous pourrez
   alors en profiter pour vous faufiler et atteindre la fin du niveau !
-</p>
-<br/>
-<h4>Le cristal : </h4>
-<IMG id="cristal" SRC="img/cristal%20haut.png">
-<p>
+</div>
+<div class="text">
+  <h3>Le cristal :</h3>
   Cet ennemi est immobile aussi. Mais il est vicieux ! Il est capable de diffracter le champ de vision des ennemis. Par exemple,
   si le champ de vision d'une tour entre en contact avec un cristal, le cristal pourra voir dans toutes les directions.
   Mais rassurez-vous ! Si aucun ennemi ne regarde le cristal alors celui-ci est aveugle et ne pourra pas vous détecter.
-</p>
-<br/>
-<h4>La sentinelle :</h4>
-<IMG id="sentinelleiso" SRC="img/sentinelle%20iso.png">
-<IMG id="sentinelleface" SRC="img/sentinelle%20face.png">
-<p>
+</div>
+<div class="text">
+  <h3>La sentinelle :</h3>
   Les choses se compliquent ! La sentinelle se déplace selon un chemin de ronde précis. Elle ne peut voir que devant elle
   mais attention à ce qu'elle ne regarde pas un cristal pendant un moment ! Il est aussi possible de détourner son attention avec
-  un leurre.
-</p>
-
-<h3>Le décors</h3>
-<IMG id="niveau" SRC="img/niveau%201.png">
-<p>
-  Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décors qui ont tous leur importance.
-</p>
-<h4>Les murs :</h4>
-<IMG id="mur" SRC="img/mur.png">
-<p>
+  un leurre.</div>
+  <div class="text">
+  <h3>Les murs :</h3>
   Tout simplement, les murs sont là pour vous empêcher de traverser le niveau comme bon vous semble ! Vous ne pouvez pas passer
   au travers et les ennemis ne peuvent pas vous voir quand vous êtes derrière un mur. En bref c'est un mur, tout ce qu'il y a de
   plus classique !
-</p>
-<h4> Les vitres : </h4>
-<IMG id="vitre" SRC="img/vitre.png">
-<IMG id="murvitre" SRC="img/mur%20et%20vitre.png">
-<p>
-  Tout comme les murs, vous ne pouvez pas passer au travers. Mais les ennemis peuvent vous voir à travers la vitre, faites
-  attention !
-</p>
-<h4>Les boutons : </h4>
-<IMG id="bouton" SRC="img/bouton.png">
-<p>
-  Lorsque l'on pose un bouton, si on clique sur un mur déjà activé, ou un mur non levé, ce mur devient lié au bouton.
-  Lorsque l’on clique sur un bouton déjà existant, la même chose se produit. Mais attention, un mur ne peut être lié qu'à un
-  seul bouton. Si le bouton est dans le champ de détection d’un ennemi, alors il s’active et baisse le mur lié.
-</p>
-<h4>Les leurres : </h4>
-<IMG id="leurres" SRC="img/leurres.png">
-<br/>
-<p>
-  Les leurres sont là pour vous aider dans votre aventure ! Grâce à eux, vous pourrez détourner l'attention de vos ennemis et vous faufiler à travers les niveaux.
-</p>
+</div>
+  <div class="text">
+    <h3>Les vitres :</h3>
+    Tout comme les murs, vous ne pouvez pas passer au travers. Mais les ennemis peuvent vous voir à travers la vitre, faites
+    attention !
+  </div>
+  <div class="text">
+    <h3>Les boutons :</h3>
+    Lorsque l'on pose un bouton, si on clique sur un mur déjà activé, ou un mur non levé, ce mur devient lié au bouton.
+    Lorsque l’on clique sur un bouton déjà existant, la même chose se produit. Mais attention, un mur ne peut être lié qu'à un
+    seul bouton. Si le bouton est dans le champ de détection d’un ennemi, alors il s’active et baisse le mur lié.
+  </div>
+  <div class="text">
+    <h3>Les leurres :</h3>
+    Les leurres sont là pour vous aider dans votre aventure ! Grâce à eux, vous pourrez détourner l'attention de vos ennemis et vous faufiler
+    à travers les niveaux.
+  </div>
+</div>
 <p>
   Vous avez maintenant tous les éléments en main pour passer un bon moment sur notre jeu !
-</p> -->
+</p>
 
 
 <script src="js/vendor/modernizr-3.8.0.min.js"></script>
@@ -150,6 +138,7 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src ="js/Le_jeu.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
