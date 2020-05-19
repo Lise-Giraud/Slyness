@@ -20,8 +20,12 @@ html {
  * Remove the margin in all browsers.
  */
 
+
 body {
   margin: 0;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 700px;
 }
 
 /**

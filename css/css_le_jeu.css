@@ -82,27 +82,26 @@ h2
   height: 65px;
 }
 
-*{box-sizing:border-box}
+/**{box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 200px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
+/* display the images */
 .mySlides {
-  display: none;
+  display: inline;
 }
 
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
   width: auto;
-  margin-top: -22px;
+  margin-top: 0px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -114,7 +113,7 @@ h2
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right : 475px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -125,9 +124,9 @@ h2
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 15px;
-  padding: 8px 12px;
+  padding-bottom: 10px;
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -138,9 +137,8 @@ h2
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding-bottom: 10px;
   position: absolute;
-  top: 0;
 }
 
 /* The dots/bullets/indicators */
