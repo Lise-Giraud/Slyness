@@ -11,7 +11,7 @@
 </head>
 
 
-  <body style="background-image: url(img/background.png)">
+  <div style="background-image: url(img/background.png)">
 <!--[if IE]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
@@ -49,15 +49,16 @@
 </div>
 <br/><br/>
 <h2 style="text-align: center">Le jeu</h2>
-<h3>Le but du jeu</h3>
-<IMG id="rihal2" SRC="img/rihal_sans_fond.png">
-<p class="blabla">
+    <h3>Le but du jeu</h3>
+  <div class="center" style="width: 100%; height: 173px;">
+  <IMG id="rihal2" SRC="img/rihal_sans_fond.png" style="position: absolute;">
+  <p style="position: absolute; margin-right: 30px; margin-left: 230px;">
   Slyness est un jeu de réflexion et de logique basé sur la détection.
-  Dans ce jeu vous jouerez un personnage, appelé Boulli. Vous l'aiderez à atteindre la fin de chaque niveau représentée par un
-  coffre.
-  Mais attention ! Il ne faut pas se faire repérer par les ennemis et vous devrez éviter les obstacles disséminés tout au long des
-  niveaux. Pour rajouter un peu plus de piment au jeu vous pouvez essayer de mourir le moins de fois possible
-  et d'atteindre la fin du niveau le plus rapidement possible ! </p>
+  Dans ce jeu vous jouerez un personnage, appelé Boulli. Vous l'aiderez à atteindre la fin de chaque niveau représentée par un coffre. Mais attention ! Il ne faut pas se faire repérer par les
+    ennemis et vous devrez éviter les obstacles disséminés tout au long des
+    niveaux. Pour rajouter un peu plus de piment au jeu vous pouvez essayer de mourir le moins de fois possible
+    et d'atteindre la fin du niveau le plus rapidement possible ! </p>
+    </div>
 
 <h3>Les ennemis et décors du jeu</h3>
 Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décors qui ont tous leur importance.
@@ -68,7 +69,7 @@ Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décor
   <!-- Full-width images with number and caption text -->
 <div class ="Slideshow" style="text-align: center;">
   <div class="mySlides">
-    <img src="img/Tours.png">
+    <img src="img/Tour.png">
   </div>
   <div class="mySlides">
     <img src="img/cristal%20haut.png">
@@ -94,6 +95,9 @@ Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décor
   <div class="mySlides">
     <img src="img/Portail.png">
   </div>
+  <div class="mySlides">
+    <img src="img/End.png">
+  </div>
 
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -112,6 +116,7 @@ Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décor
   <span class="dot" onclick="currentSlide(7)"></span>
   <span class="dot" onclick="currentSlide(8)"></span>
   <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
 </div>
 <div class="text">
   <h3>La tour :</h3>
@@ -159,9 +164,13 @@ Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décor
   le souhaitez, il faut juste passer dans le bon sens !
 </div>
   <div class="text">
-    <h3>Les portails :</h3>
-    Les portails servent à vous téléporter à un autre point du niveau. Tout simplement, quand vous entrez dans un portail, vous en ressortirez à l'endroit
-    du niveau correspondant.
+  <h3>Les portails :</h3>
+  Les portails servent à vous téléporter à un autre point du niveau. Tout simplement, quand vous entrez dans un portail, vous en ressortirez à l'endroit
+  du niveau correspondant.
+  </div>
+  <div class="text">
+    <h3>La fin de niveau :</h3>
+    La fin de niveau est représentée par un coffre qui s'ouvrira quand vous vous en approcherez. Atteignez le coffre et vous aurez fini le niveau !
   </div>
 </div>
 </div>
@@ -182,4 +191,5 @@ Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décor
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
+  </div>
 </html>
