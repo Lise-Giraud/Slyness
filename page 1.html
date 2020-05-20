@@ -18,24 +18,29 @@
 <h1 style="text-align: center">Slyness</h1>
 
 <div class ="menu">
-  <a href="index.html" title="Slyness">
-    <div class="menuAlign" style="background-image: url(img/menu.png);">
+  <a href="index.html" title="Slyness" style="color: black;">
+    <div class="menuAlign menuHover">
       <p class="textMenu"> Qui sommes-nous ?</p>
     </div>
   </a>
-  <a href="Le%20projet.html" title="Slyness">
-    <div class="menuAlign" style="background-image: url(img/menu.png);">
+  <a href="Le%20projet.html" title="Slyness" style="color: black;">
+    <div class="menuAlign menuHover">
       <p class="textMenu"> Notre projet</p>
     </div>
   </a>
-  <a href="page%201.html" title="Slyness">
-    <div class="menuAlign" style="background-image: url(img/menu.png);">
+  <a href="page%201.html" title="Slyness" style="color: black;">
+    <div class="menuAlign menuHover">
       <p class="textMenu"> Le jeu</p>
     </div>
   </a>
-  <a href="download.html" title="Slyness">
-    <div class="menuAlign" style="background-image: url(img/menu.png);">
+  <a href="download.html" title="Slyness" style="color: black;">
+    <div class="menuAlign menuHover">
       <p class="textMenu"> Télécharger Slyness</p>
+    </div>
+  </a>
+  <a href="Level%20share.html" title="Slyness" style="color: black;">
+    <div class="menuAlign menuHover">
+      <p class="textMenu">Partage de niveaux</p>
     </div>
   </a>
 </div>
@@ -46,7 +51,7 @@
 <h2 style="text-align: center">Le jeu</h2>
 <h3>Le but du jeu</h3>
 <IMG id="rihal2" SRC="img/rihal_sans_fond.png">
-<p>
+<p class="blabla">
   Slyness est un jeu de réflexion et de logique basé sur la détection.
   Dans ce jeu vous jouerez un personnage, appelé Boulli. Vous l'aiderez à atteindre la fin de chaque niveau représentée par un
   coffre.
@@ -57,19 +62,17 @@
 <h3>Les ennemis et décors du jeu</h3>
 Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décors qui ont tous leur importance.
 
-<div class = "slideshow" style="width: 500px; height: 375px; position: relative; margin-left: 33%">
+<div class = "slideshow" style="width: 500px; height: 675px; position: relative; margin-left: 33%">
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
 <div class ="Slideshow" style="text-align: center;">
-<div class="mySlides">
+  <div class="mySlides">
     <img src="img/Tours.png">
   </div>
-
   <div class="mySlides">
     <img src="img/cristal%20haut.png">
   </div>
-
   <div class="mySlides">
     <img src="img/sentinelles.png">
   </div>
@@ -77,13 +80,19 @@ Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décor
     <img src="img/mur.png">
   </div>
   <div class="mySlides">
-    <img src="img/mur%20et%20vitre.png">
+    <img src="img/vitre.png">
   </div>
   <div class="mySlides">
     <img src="img/bouton.png">
   </div>
   <div class="mySlides">
     <img src="img/leurres.png">
+  </div>
+  <div class="mySlides">
+    <img src="img/Passage.png">
+  </div>
+  <div class="mySlides">
+    <img src="img/Portail.png">
   </div>
 
   <!-- Next and previous buttons -->
@@ -101,7 +110,8 @@ Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décor
   <span class="dot" onclick="currentSlide(5)"></span>
   <span class="dot" onclick="currentSlide(6)"></span>
   <span class="dot" onclick="currentSlide(7)"></span>
-</div>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
 </div>
 <div class="text">
   <h3>La tour :</h3>
@@ -143,10 +153,19 @@ Vous pourrez rapidement vous rendre compte qu'il y a divers éléments de décor
     Les leurres sont là pour vous aider dans votre aventure ! Grâce à eux, vous pourrez détourner l'attention de vos ennemis et vous faufiler
     à travers les niveaux.
   </div>
+  <div class="text">
+  <h3>Les passages :</h3>
+  Les passages ne peuvent être empruntés que dans un seul sens (le sens indiqué par les flèches). Vous pouvez passer au travers autant de fois que vous
+  le souhaitez, il faut juste passer dans le bon sens !
 </div>
-<p>
+  <div class="text">
+    <h3>Les portails :</h3>
+    Les portails servent à vous téléporter à un autre point du niveau. Tout simplement, quand vous entrez dans un portail, vous en ressortirez à l'endroit
+    du niveau correspondant.
+  </div>
+</div>
+</div>
   Vous avez maintenant tous les éléments en main pour passer un bon moment sur notre jeu !
-</p>
 
 
 <script src="js/vendor/modernizr-3.8.0.min.js"></script>

@@ -16,77 +16,15 @@ h2
   height: 173px;
 }
 
-#tower {
-  margin-top : 0px;
-  width: 100px;
-  height: 133px;
-}
-
-#high\ tower {
-  margin-top : 0px;
-  width: 100px;
-  height: 129px;
-}
-
-#cristal {
-  margin-top : 0px;
-  width: 100px;
-  height: 118px;
-}
-
-#sentinelleiso {
-  margin-top : 0px;
-  width: 100px;
-  height: 95px;
-}
-
-#sentinelleface {
-  margin-top : 0px;
-  width: 100px;
-  height: 93px;
-}
-
-#niveau {
-  margin-top : 0px;
-  width: 500px;
-  height: 383px;
-}
-
-#mur {
-  margin-top : 0px;
-  width: 100px;
-  height: 60px;
-}
-#vitre {
-  margin-top : 0px;
-  width: 200px;
-  height: 80px;
-  left : 9%;
-}
-
-#murvitre {
-  margin-top : 0px;
-  width: 200px;
-  height: 80px;
-}
-
-#bouton {
-  margin-top : 0px;
-  width: 100px;
-  height: 125px;
-}
-
-#leurres {
-  margin-top : 0px;
-  width: 100px;
-  height: 65px;
+.blabla, #rihal2 {
+  text-align: justify;
 }
 
 /**{box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 300px;
+  max-width: 400px;
   position: relative;
   margin: auto;
 }
