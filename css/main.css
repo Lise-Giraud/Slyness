@@ -28,31 +28,25 @@ body {
 }
 
 /*Menu horizontal*/
-#navigation li a {
-  display: inline-grid;
-  background: url(/img/menu.png) left top no-repeat ;
-  color: #000 ;
-  font: 1em "Trebuchet MS",Arial,sans-serif ;
-  line-height: 1em ;
-  padding: 4px 0 ;
-  text-align: center ;
-}
-#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
-  background: url(/img/menu_cliked.png) right top no-repeat ;
+.menu {
+  height: 50px;
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.navigation{
-  border-radius: 10px;
-  margin: 0px ;
-  padding: 0 ;
-  list-style: none ;
-  text-align: center ;
+.menuAlign {
+  float: left;
+  width: 150px;
+  height: 50px;
+  background-size: auto;
+  text-align: center;
+  margin-right: 10px;
 }
 
-#navigation li {
-  border-radius: 10px;
-  display: inline-grid;
-  color: #fff;
+.textMenu {
+  position: relative;
+  top: -3px
 }
 
 /*#navigation li {
