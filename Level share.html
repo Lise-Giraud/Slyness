@@ -7,6 +7,7 @@
   <title>Téléchargement</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/LevelShare.css">
 </head>
 
 <body style="background-image: url(img/background.png)">
@@ -49,6 +50,62 @@
   vous créez afin que d'autre joueurs puissent les récupérer et y jouer à leur tour ! De-même, il est possible de télécharger des niveaux afin d'y jouer
   dans le mode créatif !
 </p>
+
+<div id="uploads"></div>
+<div class="dropzone" id="dropzone">Glisser les niveaux à partager</div>
+<script>
+  (function () {
+    var dropzone = document.getElementById('dropzone');
+
+    var displayUploads = function (data) {
+      var uploads = document.getElementById('uploads'),
+      anchor,
+      x;
+
+      var dl = data.length;
+      for (x = 0; x < dl; x = x + 1){
+        anchor = document.createElement('a');
+        anchor.href = data[x].file;
+        anchor.innerText = data[x].name;
+
+        uploads.appendChild(anchor);
+      }
+    }
+
+    var upload = function(files) {
+      var formData = new FormData(),
+        xhr = new XMLHttpRequest(),
+        x;
+      var fl = files.length;
+      for(x = 0; x < fl; x = x + 1) {
+        formData.append('file[]', files[x]);
+      }
+      xhr.onload = function() {
+        var data = JSON.parse(this.responseText);
+        displayUploads(data);
+      }
+
+      xhr.open('post', 'partage.php');
+      xhr.send(formData);
+    }
+
+    dropzone.ondrop = function (e) {
+      e.preventDefault();
+      this.className = 'dropzone';
+      upload(e.dataTransfer.files);
+    };
+
+    dropzone.ondragover = function () {
+      this.className = 'dropzone dragover';
+      return false;
+    };
+
+    dropzone.ondragleave = function () {
+      this.className = 'dropzone';
+      return false;
+    }
+  }());
+</script>
 
 <script src="../js/vendor/modernizr-3.8.0.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

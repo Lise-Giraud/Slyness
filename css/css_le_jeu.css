@@ -34,7 +34,7 @@ h2
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 337px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
