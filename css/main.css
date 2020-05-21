@@ -29,6 +29,10 @@ body {
   background-size: cover;
 }
 
+.link a:hover {
+  text-decoration: underline;
+}
+
 /*Menu horizontal*/
 .menu {
   height: 50px;
