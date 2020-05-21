@@ -81,7 +81,7 @@
         formData.append('file[]', files[x]);
       }
       xhr.onload = function() {
-        var data = JSON.parse(this.responseText);
+        var data = console.log(this.responseText);
         displayUploads(data);
       }
 
